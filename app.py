@@ -7,8 +7,8 @@ import requests
 
 app = Flask(__name__)
 
-tokenizer = AutoTokenizer.from_pretrained("src/model")
-model = AutoModelForCausalLM.from_pretrained("src/model")
+tokenizer = AutoTokenizer.from_pretrained("")
+model = AutoModelForCausalLM.from_pretrained("")
 
 @app.post("/generate")
 def generate():
