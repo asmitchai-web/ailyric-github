@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
-from src.generate_full_song import generate_song
+from generatesong import generate_song
 import streamlit as st
 import requests
 
