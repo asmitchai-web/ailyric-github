@@ -4,11 +4,11 @@ import torch
 from generatesong import generate_song
 import streamlit as st
 import requests
-from gptmodel import pyaar
+from gptmodel import pyaarsajanamera,goongmin
 app = Flask(__name__)
 
-tokenizer = AutoTokenizer.from_pretrained("")
-model = AutoModelForCausalLM.from_pretrained("")
+tokenizer = AutoTokenizer.from_pretrained("pyaarsajanamera")
+model = AutoModelForCausalLM.from_pretrained("goongmin")
 
 @app.post("/generate")
 def generate():
