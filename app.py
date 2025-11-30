@@ -4,7 +4,7 @@ import torch
 from generatesong import generate_song
 import streamlit as st
 import requests
-from gptmodel 
+from gptmodel import pyaar
 app = Flask(__name__)
 
 tokenizer = AutoTokenizer.from_pretrained("")
