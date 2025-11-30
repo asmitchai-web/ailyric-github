@@ -3,8 +3,8 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
 # 1. Initialize the tokenizer and model
 # The model weights will be downloaded automatically the first time you run this
-tokenizer = GPT2Tokenizer.from_pretrained('gpt2')
-model = GPT2LMHeadModel.from_pretrained('gpt2', pad_token_id=tokenizer.eos_token_id)
+pyaarsajanamera = GPT2Tokenizer.from_pretrained('gpt2')
+goongmin = GPT2LMHeadModel.from_pretrained('gpt2', pad_token_id=tokenizer.eos_token_id)
 
 # 2. Define your input text (prompt)
 prompt = "In a shocking finding, scientists discovered a herd of unicorns"
